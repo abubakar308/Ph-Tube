@@ -17,13 +17,15 @@
             <img src="Logo.png" alt="">
 
         </div>
-        <div class="flex">
-            <label class="input input-bordered flex items-center">
-                <input type="text" class="" placeholder="Search" />
-                    <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+        <div class="flex items-center">
+            <label for="search">
+                <input id="input" type="search" class="border rounded-l-3xl p-2" placeholder="Type Here" />
               </label>
+              <div id="search" class="bg-gray-200 p-1 rounded-r-3xl ml-0">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+            </div>
            </div>
-           <button class="btn bg-green-300">blog</button>
+           <button id="sort" class="btn bg-green-300">Sort</button>
     </nav>
 
     <nav id="cetagory-container" class="flex justify-center items-center gap-3 py-2"></nav>
